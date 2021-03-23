@@ -103,7 +103,7 @@ print(r.text)
 ```python
 import requests
 url = "http://120.92.50.21:6175/text_query"
-params = {"text":"中国人民大学位于北京中关村，是一所位于世界一流大学。"}
+params = {"text":"中国人民大学位于北京中关村，是一所世界一流大学。"}
 
 r = requests.get(url, params=params)
 print(r.text)
