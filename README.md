@@ -108,3 +108,11 @@ params = {"text":"中国人民大学位于北京中关村，是一所世界一�
 r = requests.get(url, params=params)
 print(r.text)
 ```
+
+* MORE
+
+除了本repo里公布的这个非正式API外，也可以从智源社区获取同样的服务：https://wudaoai.cn/api
+
+智源提供的API所使用的模型和本文档里的API完全一致，两个API抽得的embedding可以直接做匹配。
+
+
