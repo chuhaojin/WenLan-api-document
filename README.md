@@ -59,7 +59,7 @@ files = {"image": open("test.jpg", "rb")}
 url = "http://120.92.50.21:6175/image_query"
 
 r = requests.post(url, files=files)
-print(r.text)
+print(r.json())
 ```
 
 ### 2. [GET]获取文本的特征向量
@@ -106,7 +106,7 @@ url = "http://120.92.50.21:6175/text_query"
 params = {"text":"中国人民大学位于北京中关村，是一所世界一流大学。"}
 
 r = requests.get(url, params=params)
-print(r.text)
+print(r.json())
 ```
 
 * MORE
