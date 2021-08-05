@@ -113,6 +113,5 @@ print(r.text)
 
 除了本repo里公布的这个非正式API外，也可以从智源社区获取同样的服务：https://wudaoai.cn/api
 
-智源提供的API所使用的模型和本文档里的API完全一致，两个API抽得的embedding可以直接做匹配。
-
+需要注意的是，智源提供的API所使用的模型已经在2021年6月底更新为了2.0版本，已经和本repo提供的API不一致。
 
