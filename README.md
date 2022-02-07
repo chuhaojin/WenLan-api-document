@@ -19,7 +19,8 @@ BriVL首先使用了独立的语言和视觉编码器提取语言和视觉信息
 
 * 方法描述：上传一张图片，获取图像的特征向量
 
-* URL地址：http://120.92.50.21:6175/image_query
+~~* URL地址：http://120.92.50.21:6175/image_query~~
+* URL地址：http://180.76.186.10:6175/ (2022年2月7日迁移至新IP)
 
 * 请求类型：POST
 
@@ -56,7 +57,7 @@ BriVL首先使用了独立的语言和视觉编码器提取语言和视觉信息
 ```python
 import requests
 files = {"image": open("test.jpg", "rb")}
-url = "http://120.92.50.21:6175/image_query"
+url = "http://180.76.186.10:6175/image_query"
 
 r = requests.post(url, files=files)
 print(r.json())
@@ -66,7 +67,7 @@ print(r.json())
 
 * 方法描述：上传一段文本，获取文本对应的特征向量
 
-* URL地址：http://120.92.50.21:6175/text_query
+* URL地址：http://180.76.186.10:6175/text_query
 
 * 请求类型：GET
 
@@ -102,7 +103,7 @@ print(r.json())
 
 ```python
 import requests
-url = "http://120.92.50.21:6175/text_query"
+url = "http://180.76.186.10:6175/text_query"
 params = {"text":"中国人民大学位于北京中关村，是一所世界一流大学。"}
 
 r = requests.get(url, params=params)
