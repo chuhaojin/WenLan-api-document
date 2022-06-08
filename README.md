@@ -23,7 +23,7 @@ BriVL首先使用了独立的语言和视觉编码器提取语言和视觉信息
 
 ~~* URL地址：http://180.76.186.10:6175/image_query (2022年2月7日迁移至新IP)~~
 
-* * URL地址：https://buling.wudaoai.cn/image_query (2022年6月8日迁移至新地址)
+* URL地址：https://buling.wudaoai.cn/image_query (2022年6月8日迁移至新地址)
 
 * 请求类型：POST
 
@@ -72,7 +72,7 @@ print(r.json())
 
 ~~* URL地址：http://180.76.186.10:6175/text_query~~
 
-* * URL地址：https://buling.wudaoai.cn/text_query (2022年6月8日迁移至新地址)
+* URL地址：https://buling.wudaoai.cn/text_query (2022年6月8日迁移至新地址)
 * 请求类型：GET
 
 * 请求参数
