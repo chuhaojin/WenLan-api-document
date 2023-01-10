@@ -1,5 +1,5 @@
 # 文澜1.0 API已经在2023年1月9日停用，感谢大家关注！
-### 你可以在本地部署文澜模型抽特征，推荐使用repo：(https://github.com/chuhaojin/BriVL-BUA-applications)[https://github.com/chuhaojin/BriVL-BUA-applications].
+### 你可以在本地部署文澜模型抽特征，推荐使用repo：[https://github.com/chuhaojin/BriVL-BUA-applications](https://github.com/chuhaojin/BriVL-BUA-applications).
 
 # 文澜1.0 API文档
 
